@@ -1,9 +1,8 @@
-name: any_commit_app
+name: CI-CD Pipeline
 
 on:
   push:
-    branches:
-      - '*'
+    branches: [ main ]
 
 env:
   IMAGE_TAG: oefrager/nginx-app
